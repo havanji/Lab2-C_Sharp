@@ -13,7 +13,7 @@ namespace Lab2_C_Sharp
         {
             //Task1
 
-            int a = Convert.ToInt32((Console.ReadLine()));
+            /*int a = Convert.ToInt32((Console.ReadLine()));
             int b = Convert.ToInt32((Console.ReadLine()));
 
             int count = 0;
@@ -22,18 +22,62 @@ namespace Lab2_C_Sharp
                 if (x % 3 == 0)
                 {
                     count = count + 1;
-                    sum = sum + x;
                 }
             Console.WriteLine(count);
+            Console.ReadKey();*/
 
             //Task2
 
-
+            /*string str = "dasfasjpfgasjpgraeawsh";
+            for (int i = 1; i < str.Length; i += 2)
+            {
+                Console.WriteLine(str[i]);
+            }
+            Console.ReadKey();*/
 
             //Task3
+
+            /*string drink = Console.ReadLine();
+            switch (drink)
+            {
+                case "Coffee":
+                case "coffee":
+                case "Кава":
+                case "кава":
+                    Console.WriteLine("50 грн");
+                    break;
+                case "Tea":
+                case "tea":
+                case "Чай":
+                case "чай":
+                    Console.WriteLine("45 грн");
+                    break;
+                case "Juice":
+                case "juice":
+                case "Сік":
+                case "сік":
+                    Console.WriteLine("30 грн");
+                    break;
+                case "Watter":
+                case "watter":
+                case "Вода":
+                case "вода":
+                    Console.WriteLine("20 грн");
+                    break;
+            }
+            Console.ReadKey();*/
+
             //Task4
             //Task5
             //Task6
+
+            /*double a = double.Parse(Console.ReadLine());
+            var x1 = (a) % 10;
+            var x2 = (a) % 10;
+            int sum = (int)(x1 + x2);
+            Console.WriteLine("Сума цифр: " + sum);
+            Console.ReadKey();*/
+
             //Task7
             //Task8
             //Task9
