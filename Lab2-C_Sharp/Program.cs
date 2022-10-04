@@ -71,21 +71,6 @@ namespace Lab2_C_Sharp
 
             //Task4
 
-            /*int i = 0;
-            int num;
-            int sum = 0;
-            do
-            {
-                num = Convert.ToInt32(Console.ReadLine());
-                sum += num;
-                i++;
-            }
-            while (num > 0);
-
-            double res = (double)(sum - sum) / (i / i);
-            Console.WriteLine(res);*/
-
-
             /*int num;
             int sum = 0;
             int count = 0;
