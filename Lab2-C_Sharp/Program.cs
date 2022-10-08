@@ -13,6 +13,9 @@ namespace Lab2_C_Sharp
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.Unicode;
+            Console.InputEncoding = System.Text.Encoding.Unicode;
+
             //Task1
 
             /*int a = Convert.ToInt32((Console.ReadLine()));
@@ -91,10 +94,10 @@ namespace Lab2_C_Sharp
             /*int year;
             year = Convert.ToInt32(Console.ReadLine());
             if (year % 4 == 0)
-                if (year % 100 != 0)
+                if ((year % 100 != 0) || ((year % 100 == 0) &&(year % 400 == 0)))
                     Console.WriteLine("Рік високосний");
-            else
-                Console.WriteLine("Рік не високосний");
+                else
+                    Console.WriteLine("Рік не високосний");
             Console.ReadKey();*/
 
             //Task6
@@ -192,8 +195,37 @@ namespace Lab2_C_Sharp
 
             //Task10
 
-            Console.WriteLine("Хочу плакати (>_<)");
-            Console.ReadKey();
+            /*int tenNum;
+            int count = 0;
+            int sum = 0;
+            int mult = 1;
+            int result = 0;
+            for (var i = 0; i < 10; i += 1)
+            {
+                tenNum = Convert.ToInt32(Console.ReadLine());
+                if (tenNum > 0)
+                {
+                    count++;
+                }
+                if (i < 5)
+                {
+                    sum += tenNum;
+                }
+                if (i < 4)
+                {
+                    mult *= tenNum;
+                }
+                if (count == 10)
+                {
+                    result = sum;
+                }
+                else if (count != 10)
+                {
+                    result = mult;
+                }
+                Console.WriteLine(result);
+
+            }*/
 
         }
     }
